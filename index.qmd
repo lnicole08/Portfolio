@@ -8,7 +8,7 @@ title: ""
 [Behavioral neuroscience | Optogenetics | Hardware prototyping | Estimation statistics | Data analysis & visualization]{.tagline}
 
 <!-- 📷 NICOLE: add headshot → images/nicole.jpg (square crop works best) -->
-![](images/nicole.png){.headshot width="150"}
+![](images/nicole.png){.headshot width="230"}
 :::
 
 I'm a **neuroscientist** and Research Fellow in the **ACC Lab** (Adam Claridge-Chang) at
@@ -37,14 +37,3 @@ and high-throughput tracking pipelines. *(Built in collaboration with an enginee
 Effect-size estimation over p-values, plus the computer-vision and analysis that turn
 video into behavioural metrics.
 :::
-
-[]{.section-rule}
-
-[Find me]{.eyebrow}
-
-<!-- 🔗 NICOLE: fill the ‹TODO› links below (asked in intake) -->
-- GitHub: <https://github.com/lnicole08>
-- ORCID: <https://orcid.org/0000-0001-6953-2177>
-- Google Scholar: <https://scholar.google.com/citations?user=EzArXBQAAAAJ&hl=en>
-- LinkedIn: <https://www.linkedin.com/in/nicole-l-b59504280>
-- Email: <lnicole8282@gmail.com>

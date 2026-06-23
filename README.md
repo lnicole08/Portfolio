@@ -80,7 +80,13 @@ placeholder links/text.
 
 ## Outstanding follow-ups
 
-- [ ] Install Quarto + run `quarto add schochastics/academicons` (see setup above).
+- [x] Install Quarto + run `quarto add schochastics/academicons` (see setup above).
+- [ ] **Contact form — create a new email** dedicated to the site (so your personal
+      address stays private).
+- [ ] **Contact form — sign up at [formspree.io](https://formspree.io)** with that new
+      email, create a form, and **give the Formspree form ID to Claude** (or paste it into
+      `contact.qmd`, replacing `REPLACE_WITH_FORMSPREE_ID`). The email never appears on the
+      public page — only the form ID does.
 - [x] Fill `‹TODO›` links: GitHub, Google Scholar, LinkedIn (in `_quarto.yml` and
       `index.qmd`).
 - [x] Add headshot → `images/nicole.jpg` (square crop).

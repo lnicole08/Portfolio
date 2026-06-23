@@ -22,6 +22,8 @@ website:
         text: tools
       - href: writing.qmd
         text: writing
+      - href: contact.qmd
+        text: contact
     right:
       - icon: github
         href: "https://github.com/lnicole08"
@@ -48,4 +50,4 @@ format:
     toc: false
     smooth-scroll: true
     grid:
-      body-width: 760px
+      body-width: 1100px   # readability ceiling; actual width is fluid (see theme-light.scss)

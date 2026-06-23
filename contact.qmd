@@ -1,0 +1,35 @@
+---
+title: "Contact"
+---
+
+[Get in touch]{.eyebrow}
+
+Have a question, a collaboration in mind, or just want to say hello? Drop a note
+below and it'll come straight to my inbox.
+
+<!--
+  🔒 NICOLE: this form routes through Formspree so your email stays OFF the public page.
+  Setup (one time):
+    1. Sign up at https://formspree.io with your private email.
+    2. Create a new form; copy its endpoint, e.g. https://formspree.io/f/abcd1234
+    3. Replace REPLACE_WITH_FORMSPREE_ID below with just the id (e.g. abcd1234).
+  Until then the form will not send anywhere.
+-->
+
+::: {.contact-form}
+<form action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID" method="POST">
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="6" required></textarea>
+
+  <!-- honeypot: hidden field bots fill in, humans don't -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <button type="submit">Send message</button>
+</form>
+:::
