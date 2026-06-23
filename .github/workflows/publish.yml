@@ -1,0 +1,21 @@
+on:
+  push:
+    branches: [main]
+name: Publish
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+      # If an executable notebook page is added later, also add here:
+      #   - uses: actions/setup-python@v5
+      #     with: { python-version: '3.11' }
+      #   - run: pip install jupyter
+      - uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

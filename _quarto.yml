@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: _site
+  # NOTE (future): Jupyter notebooks (.ipynb) are NOT used yet. They are reserved
+  # for future executable demo pages (e.g. a live DABEST estimation-statistics
+  # figure). When such a page is added, Quarto can execute the notebook at render
+  # time and bake the output in; add a Python + `pip install jupyter` step to the
+  # publish Action at that point. Do NOT set up nbdev for the portfolio.
+
+website:
+  title: "Nicole M. Lee"
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: about
+      - href: research.qmd
+        text: research
+      - href: hardware.qmd
+        text: hardware
+      - href: tools.qmd
+        text: tools
+      - href: writing.qmd
+        text: writing
+    right:
+      - icon: github
+        href: "https://github.com/lnicole08"
+        aria-label: GitHub
+      - text: "{{< ai orcid >}}"          # via Academicons extension (see README)
+        href: https://orcid.org/0000-0001-6953-2177
+        aria-label: ORCID
+      - text: "{{< ai google-scholar >}}" # via Academicons extension (see README)
+        href: "https://scholar.google.com/citations?user=EzArXBQAAAAJ&hl=en"
+        aria-label: Google Scholar
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/nicole-l-b59504280"
+        aria-label: LinkedIn
+      - icon: envelope
+        href: "mailto:lnicole8282@gmail.com"
+        aria-label: Email
+  page-footer:
+    center: "© 2026 Nicole M. Lee · built with Quarto"
+
+format:
+  html:
+    # Add dark mode later: theme: { light: theme-light.scss, dark: theme-dark.scss }
+    theme: theme-light.scss
+    toc: false
+    smooth-scroll: true
+    grid:
+      body-width: 760px

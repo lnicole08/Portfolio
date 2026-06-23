@@ -1,0 +1,11 @@
+---
+title: "Writing"
+---
+
+[Coming soon]{.eyebrow}
+
+::: {.stub}
+# Under construction 🚧
+
+This section is being built. Check back soon.
+:::

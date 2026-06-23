@@ -1,0 +1,41 @@
+---
+title: "Research"
+---
+
+[Selected research]{.eyebrow}
+
+My work runs across three layers of one question, how small neural circuits drive
+behaviour: the **molecular tools**, the **instruments** that deploy them, and the
+**statistics** that keep the answers honest.
+
+### Untangling reward from running
+*Optogenetic screen of the mushroom body output neuron (MBON) split-GAL4 library, using
+bidirectional manipulation across two custom assays, revealing how valence and locomotion
+are entangled in* Drosophila *circuits.*
+[Role: PhD thesis work · first-author manuscript in preparation]{.role}
+<!-- 🎞️ NICOLE: optional, add a short behaviour clip → images/mbon-assay.mp4 -->
+
+### One flash, lasting silence
+*A brief pulse of light on an opto-GPCR produces prolonged behavioural inhibition in*
+Drosophila*, a new silencing tool for circuit work.*
+[Role: co-first author · manuscript submitted for review]{.role}
+
+### A cleaner neural off-switch
+*Kalium channelrhodopsins as potassium-selective optogenetic inhibitors. I led the
+experimental design, data processing, analysis, and visualisation for all* C. elegans
+*experiments. Covered in* The Straits Times *(2024).*
+[Role: co-author · Nature Communications, 2024]{.role}
+
+### Separating chromosomes in fused cells
+*Asymmetric chromatin retention and nuclear envelopes keep genomes apart after cell
+fusion; earlier work on cell division in neuroblasts.*
+[Role: co-author · Communications Biology, 2022]{.role}
+
+[]{.section-rule}
+
+[Tools & open source]{.eyebrow}
+
+### DABEST 2.0: estimation statistics
+*Contributed to the estimation-graphics toolbox (in revision at* Nature Methods*):
+validated the proportion-plots feature and ran real-data testing.*
+[See the package →](https://acclab.github.io/DABEST-python/) · [Role: co-author]{.role}

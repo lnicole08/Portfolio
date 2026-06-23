@@ -1,0 +1,12 @@
+---
+title: "Hardware"
+---
+
+[Coming soon]{.eyebrow}
+
+::: {.stub}
+# Under construction 🚧
+
+Behavioural rigs, CNC-milled arenas, and CAD, designed with an engineer. Photos and
+build notes coming soon.
+:::
